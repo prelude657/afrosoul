@@ -7,7 +7,7 @@
     border-top: 2px solid transparent;
     border-image: linear-gradient(90deg, #ff69b4, #00ffff);
     border-image-slice: 1;
-    position: sticky;
+    position: stickyç;
   }
   
   .site-footer a {
