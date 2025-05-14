@@ -1,12 +1,52 @@
-# React + Vite
+# 🖤 Afrosoul
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Afrosoul** is a dynamic front-end web project built with React, celebrating the number one Hip-Hop, R&B, Afrobeats, and Amapiano party in Salvador, Bahia. Featuring bold design, immersive visuals, and interactive elements, Afrosoul brings the energy of the party to life online.
 
-Currently, two official plugins are available:
+## 🎉 About the Party
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Afrosoul is more than a party — it's a cultural experience. Powered by the sounds of DJs like **DJ Hendo**, **DJ Dami**, **Amar Mansoor**, and rotating guest performers, it merges global Black music genres with the vibrant rhythm of Bahia.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🔥 Animated logo with smooth fade-in effect
+- 🖼️ Interactive image gallery styled like a video game character selector
+- 🎤 Highlighted "Upcoming Events" section with vivid gradient text
+- 🖊️ About section with energetic description of the movement
+- 🎬 Modal pop-ups for expanded media
+- 📱 Fully responsive design
+- 🎨 Custom CSS styling with themed color palettes
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (JavaScript library for building UI)
+- **Custom CSS**
+- **Git** & **GitHub** for version control
+- Optional deployment with **Netlify** or **Vercel**
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14+ recommended)
+- Git
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/prelude657/afrosoul.git
+
+# Navigate into the project directory
+cd afrosoul
+
+# Install dependencies
+npm install
+
+# Run the app
+npm start
