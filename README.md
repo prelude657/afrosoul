@@ -1,12 +1,23 @@
-# React + Vite
+# Afrosoul — Feature: Gallery Modal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This branch introduces a **Gallery Modal Component** to the Afrosoul project, enhancing the visual experience of viewing performers and event imagery.
 
-Currently, two official plugins are available:
+## 🔥 Feature Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Three horizontally aligned photo cards
+- Each card contains:
+  - A featured photo
+  - A "More Info" button
+- Clicking "More Info" opens a modal displaying:
+  - Enlarged image
+  - Short bio or description
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- CSS Flexbox
+- Custom Modal Logic
+- Responsive Design (WIP)
+
+## 📁 Folder Structure
+
