@@ -6,18 +6,20 @@ import UpcomingEvents from './UpcomingEvents';
 import Header from './HEADER.JSX';
 import AboutAfrosoul from './AboutAfrosoul';
 import Footer from './Footer';
-
+import ThreeCardGallery from './ThreeCardGallery';
 function App() {
   return (
 
    <>
    <Header/>
-   <AboutAfrosoul/>
+   
    <div>
    <UpcomingEvents />
    </div>
    
       <Gallery />
+      ç<AboutAfrosoul/>
+    <ThreeCardGallery />
       <Footer/>
     </>
       

@@ -1,0 +1,74 @@
+.card-gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background: transparent;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #000;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .info-button {
+    background: linear-gradient(90deg, #ff69b4, #00ffff);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #111;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .modal-content img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content button {
+    background: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
