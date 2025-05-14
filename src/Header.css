@@ -1,0 +1,23 @@
+.site-header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: black;
+    text-align: center;
+    position: sticky; /* keeps header on top if you scroll */
+    top: 0;
+    z-index: 10;
+    height: 67PX;
+    margin-bottom: 40px;
+  }
+  
+  .gradient-text {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff69b4, #00ffff); /* pink to aqua */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Graduate', serif;
+  }
+  

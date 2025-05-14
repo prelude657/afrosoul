@@ -1,0 +1,17 @@
+.afrosoul-about {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 74px auto;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+  }
+  
+  .afrosoul-about strong {
+    color: #ff69b4; /* hot pink highlight */
+  }
+  

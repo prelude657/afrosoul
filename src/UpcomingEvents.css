@@ -1,0 +1,18 @@
+.upcoming-events-container {
+    margin: auto;
+    width: 41%;
+    background-color: black;
+   margin-bottom: 91px;
+    padding: 39px 70px;
+  }
+  
+  .gradient-text {
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff69b4, #00ffff); /* pink to aqua */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
+  

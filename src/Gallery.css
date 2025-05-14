@@ -1,0 +1,72 @@
+.gallery-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .image-container {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+    opacity: 0.6;
+    margin-bottom: 135PX;
+  }
+  
+  .image-container.active {
+    transform: scale(1.2);
+    opacity: 1;
+    border: white solid 5PX;
+  }
+  
+  
+  .prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+  }
+  
