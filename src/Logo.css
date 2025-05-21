@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 36vh;
     padding-top: 20px;
   }
   .logo-container img {

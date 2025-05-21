@@ -16,10 +16,9 @@ function App() {
    <div>
    <UpcomingEvents />
    </div>
-   
       <Gallery />
-      ç<AboutAfrosoul/>
-    <ThreeCardGallery />
+      <AboutAfrosoul/>
+      <ThreeCardGallery />
       <Footer/>
     </>
       

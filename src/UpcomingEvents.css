@@ -2,10 +2,15 @@
     margin: auto;
     width: 63%;
     background-color: black;
-   margin-bottom: 91px;
+    margin-bottom: 50px;
     padding: 39px 70px;
+    height: 20px;
+    
   }
-  
+  .upcoming-events-container h2 {
+    position: relative;
+    bottom: 64px;
+  }
   .gradient-text {
     font-size: 46px;
     font-weight: bold;
